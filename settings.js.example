@@ -1,0 +1,9 @@
+module.exports = {
+  server: 'chat.freenode.net',
+  nick: 'K-9',
+  pass: ":K-9 secret",
+  channels: [
+    '#foo',
+    '#bar'
+  ]
+}
