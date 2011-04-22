@@ -1,0 +1,6 @@
+
+* irc-js: add reconnect feature
+* irc-js: expose `internal` object, it contains useful information
+  (current nick, joined channels)
+
+
