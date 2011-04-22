@@ -55,7 +55,7 @@ function poll () {
         if (torrentId > newLastId)
           newLastId = torrentId;
         
-        //if (lastId)
+        if (lastId)
           module.exports.emit('new', {
             id: torrentId,
             name: match[2],
